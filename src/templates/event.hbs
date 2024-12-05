@@ -1,8 +1,11 @@
-{{#each events}}
-    <sl-details summary="{{formatDate startDate}} - {{name}}">
-        {{description}}
-        <p><strong>Location:</strong> {{location.name}}</p>
-
-    </sl-details>
+<div class="details-group-example">
+{{#each events.keys}}
+    <h4>{{formatDate this}}</h4>
+    {{#each (lookup ../events.events this)}}
+        <sl-details summary="{{formatTime startDate}} - {{name}}">
+            {{description}}
+            <p><strong>Location:</strong> {{location.name}}</p>
+        </sl-details>
+    {{/each}}
 {{/each}}
-
+</div>
