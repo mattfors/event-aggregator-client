@@ -1,0 +1,4 @@
+@import '@shoelace-style/shoelace/dist/themes/dark.css';
+body {
+    font-family: var(--sl-font-sans);
+}

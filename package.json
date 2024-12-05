@@ -1,0 +1,39 @@
+{
+  "name": "event-aggregator-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattfors/event-aggregator-client.git"
+  },
+  "author": "Matthew Fors",
+  "bugs": {
+    "url": "https://github.com/mattfors/event-aggregator-client/issues"
+  },
+  "homepage": "https://github.com/mattfors/event-aggregator-client#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "handlebars-loader": "^1.7.3",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "json-loader": "^0.5.7",
+    "path-browserify": "^1.0.1",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "@shoelace-style/shoelace": "^2.19.0",
+    "date-fns": "^4.1.0",
+    "mini-css-extract-plugin": "^2.9.2"
+  }
+}
